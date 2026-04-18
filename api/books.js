@@ -16,24 +16,24 @@ const books = {
   "dark-ages": {
     title: "Welcome to the Dark Ages",
     asin: "B0DWNBPKBJ",
-    audible: "B0DM6Z8VLS",
+    audible: "https://www.audible.com/pd/B0DM6Z8VLS",
   },
   "dark-tower": {
     title: "Journey to the Dark Tower",
     asin: "B0DY59XD7L",
-    audible: "B0DQD8K6G4",
+    audible: "https://www.audible.com/pd/B0DQD8K6G4",
   },
   "dark-blade": {
     title: "Quest for the Dark Blade",
     asin: "B0DWP9Y7S4",
-    audible: "B0DVNGD7Z6",
+    audible: "https://www.audible.com/pd/B0DVNGD7Z6",
   },
 
   // ── THE SOAR CHRONICLES ──────────────────────
   "murder-temple": {
     title: "Murder in the Temple",
     asin: "B0F8W9B8YL",
-    audible: "B0DJZ2CF73",
+    audible: "https://www.audible.com/pd/B0DJZ2CF73",
   },
   "death-curator": {
     title: "Death of a Curator",
@@ -42,7 +42,7 @@ const books = {
   "cuckoos-call": {
     title: "The Cuckoo's Last Call",
     asin: "B0G99MVCBN",
-    audible: "B0DX5ZLBQG",
+    audible: "https://www.audible.com/pd/B0DX5ZLBQG",
   },
 
   // ── PSYKER MARINE ────────────────────────────
@@ -73,14 +73,14 @@ const books = {
   "psyker-omnibus": {
     title: "Psyker Marine: Complete Omnibus",
     asin: "B0DXK9L4V7",
-    audible: "B0DHKYH4NS",
+    audible: "https://www.audible.com/pd/B0DHKYH4NS",
   },
 
   // ── ARCANE GALAXY ────────────────────────────
   "chaos-protocols": {
     title: "Arcane Galaxy: Chaos Protocols",
     asin: "B0DWPCZ3V7",
-    audible: "B0DLF9WQKX",
+    audible: "https://www.audible.com/pd/B0DLF9WQKX",
   },
   "swashbuckler": {
     title: "Arcane Galaxy: Swashbuckler",
@@ -91,7 +91,7 @@ const books = {
   "punish-system": {
     title: "Punish the System",
     asin: "B0DWQ2X3H9",
-    audible: "B0CK5K57F2",
+    audible: "https://www.audible.com/pd/B0CK5K57F2",
   },
 
   // ── BOY'S OWN ADVENTURES ─────────────────────
