@@ -30,8 +30,11 @@ module.exports = function handler(req, res) {
   }
 
   // If format=audible and we have an Audible URL, send them there
+  // Append Associates tag for Audible bounty earnings
   if (format === "audible" && book.audible) {
-    res.writeHead(302, { Location: book.audible });
+    const separator = book.audible.includes("?") ? "&" : "?";
+    const audibleUrl = `${book.audible}${separator}tag=${ASSOCIATES_TAG}`;
+    res.writeHead(302, { Location: audibleUrl });
     return res.end();
   }
 
