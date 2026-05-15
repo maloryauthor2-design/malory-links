@@ -150,6 +150,14 @@ const books = {
     title: "Mad Science 2",
     asin: "B0GS6XW222",
   },
+  "auntie-heroes": {
+    title: "Auntie Heroes",
+    asin: "B0GX2YPFR5",
+  },
+  "crashed-landings": {
+    title: "Crashed Landings",
+    asin: "B0GXQNKYGM",
+  },
 };
 
 module.exports = books;
