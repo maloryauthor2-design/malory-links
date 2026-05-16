@@ -100,6 +100,10 @@ const books = {
     title: "The Weird Map in Mr Glimm's Skull",
     asin: "B0G7MMN47C",
   },
+  "terror-from-the-deep": {
+    title: "Terror from the Deep",
+    asin: "1969819081",
+  },
 
   // ── RACONTEUR PRESS ANTHOLOGIES ───────────────
   "mad-science": {
