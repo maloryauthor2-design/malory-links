@@ -94,6 +94,10 @@ const books = {
     asin: "B0GSH1T6KK",
     audible: "https://www.audible.com/pd/Punish-the-System-Book-1-Audiobook/B0GTW953L9",
   },
+  "punish-system-2": {
+    title: "Punish the System: Book 2",
+    asin: "B0GTS1GRZX",
+  },
 
   // ── BOY'S OWN ADVENTURES ─────────────────────
   "mr-glimm": {
