@@ -164,4 +164,12 @@ const books = {
   },
 };
 
+// ── ALIASES ──────────────────────────────────────
+// Long-form slugs that appeared in old shares and page
+// metadata. Keep these pointing at the canonical entries
+// so legacy links resolve to the store, not the fallback.
+books["punish-the-system"] = books["punish-system"];
+books["welcome-to-the-dark-ages"] = books["dark-ages"];
+books["murder-in-the-temple"] = books["murder-temple"];
+
 module.exports = books;
