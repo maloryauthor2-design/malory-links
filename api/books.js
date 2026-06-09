@@ -97,6 +97,7 @@ const books = {
   "punish-system-2": {
     title: "Punish the System: Book 2",
     asin: "B0GTS1GRZX",
+    audible: "https://www.audible.com/pd/Punish-the-System-Book-2-Audiobook/B0H4HK7GC6",
   },
 
   // ── BOY'S OWN ADVENTURES ─────────────────────
