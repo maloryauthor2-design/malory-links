@@ -173,6 +173,35 @@ const books = {
 // Long-form slugs that appeared in old shares and page
 // metadata. Keep these pointing at the canonical entries
 // so legacy links resolve to the store, not the fallback.
+// ── READER MAGNET ────────────────────────────────
+books["crude"] = {
+  title: "Crude (free novella via BookFunnel)",
+  url: "https://dl.bookfunnel.com/8pmwps4xxw",
+};
+
+// ── READ-NEXT CHAIN (for Kindle back matter) ─────
+// links.maloryauthor.com/next-<slug> = "you finished <slug>,
+// here's the next thing to read". Series ends and cross-sells
+// fall through to the free novella.
+books["next-dark-ages"]      = books["dark-tower"];
+books["next-dark-tower"]     = books["dark-blade"];
+books["next-dark-blade"]     = books["crude"];
+books["next-murder-temple"]  = books["death-curator"];
+books["next-death-curator"]  = books["cuckoos-call"];
+books["next-cuckoos-call"]   = books["crude"];
+books["next-psyker-1"]       = books["psyker-2"];
+books["next-psyker-2"]       = books["psyker-3"];
+books["next-psyker-3"]       = books["psyker-4"];
+books["next-psyker-4"]       = books["psyker-5"];
+books["next-psyker-5"]       = books["psyker-6"];
+books["next-psyker-6"]       = books["chaos-protocols"];
+books["next-chaos-protocols"] = books["swashbuckler"];
+books["next-swashbuckler"]   = books["crude"];
+books["next-punish-system"]  = books["punish-system-2"];
+books["next-punish-system-2"] = books["crude"];
+books["next-mr-glimm"]       = books["terror-from-the-deep"];
+books["next-terror-from-the-deep"] = books["crude"];
+
 books["punish-the-system"] = books["punish-system"];
 books["welcome-to-the-dark-ages"] = books["dark-ages"];
 books["murder-in-the-temple"] = books["murder-temple"];

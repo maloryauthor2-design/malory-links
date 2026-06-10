@@ -38,6 +38,12 @@ module.exports = function handler(req, res) {
     return res.end();
   }
 
+  // Direct-URL entries (BookFunnel, etc.) — no Amazon involved
+  if (book.url) {
+    res.writeHead(302, { Location: book.url });
+    return res.end();
+  }
+
   // Default: send to amazon.com — Amazon handles country redirect
   const amazonUrl = `https://www.amazon.com/dp/${book.asin}?tag=${ASSOCIATES_TAG}`;
 
