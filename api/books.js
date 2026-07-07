@@ -167,6 +167,14 @@ const books = {
     title: "Crashed Landings",
     asin: "B0GXQNKYGM",
   },
+  "muse-within-us": {
+    title: "The Muse Within Us",
+    asin: "B0H3WVBPSL",
+  },
+  "pet-monsters": {
+    title: "Pet Monsters",
+    asin: "B0H784WGP1",
+  },
 };
 
 // ── ALIASES ──────────────────────────────────────
