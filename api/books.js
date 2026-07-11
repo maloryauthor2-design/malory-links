@@ -105,6 +105,10 @@ const books = {
     title: "The Weird Map in Mr Glimm's Skull",
     asin: "B0G7MMN47C",
   },
+  "clockwork-terror": {
+    title: "The Clockwork Terror of Blackglass Island",
+    asin: "B0H853VNRW",
+  },
   "terror-from-the-deep": {
     title: "Terror from the Deep",
     asin: "1969819081",
@@ -207,7 +211,8 @@ books["next-chaos-protocols"] = books["swashbuckler"];
 books["next-swashbuckler"]   = books["crude"];
 books["next-punish-system"]  = books["punish-system-2"];
 books["next-punish-system-2"] = books["crude"];
-books["next-mr-glimm"]       = books["terror-from-the-deep"];
+books["next-mr-glimm"]       = books["clockwork-terror"];
+books["next-clockwork-terror"] = books["terror-from-the-deep"];
 books["next-terror-from-the-deep"] = books["crude"];
 
 books["punish-the-system"] = books["punish-system"];
