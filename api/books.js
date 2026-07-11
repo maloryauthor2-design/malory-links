@@ -190,6 +190,32 @@ books["newsletter"] = {
   url: "https://maloryauthor.substack.com/subscribe",
 };
 
+// ── SOCIAL / FOLLOW ──────────────────────────────
+// Same "never link raw" rule as buy links — used on back-matter
+// "follow me" pages so a handle change only ever needs updating
+// here, not in every already-published book.
+books["facebook"] = {
+  title: "Malory on Facebook",
+  url: "https://www.facebook.com/share/1DfRcJtKhQ/",
+};
+books["instagram"] = {
+  title: "Malory on Instagram",
+  url: "https://www.instagram.com/maloryauthor",
+};
+books["x"] = {
+  title: "Malory on X",
+  url: "https://x.com/maloryauthor",
+};
+books["twitter"] = books["x"];
+books["tiktok"] = {
+  title: "Malory on TikTok",
+  url: "https://www.tiktok.com/@maloryauthor",
+};
+books["amazon"] = {
+  title: "Malory's Amazon author page",
+  url: "https://www.amazon.com/stores/Malory/author/B0DWPC9JYZ",
+};
+
 // ── READ-NEXT CHAIN (for Kindle back matter) ─────
 // links.maloryauthor.com/next-<slug> = "you finished <slug>,
 // here's the next thing to read". Series ends and cross-sells
