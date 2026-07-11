@@ -179,6 +179,17 @@ books["crude"] = {
   url: "https://dl.bookfunnel.com/8pmwps4xxw",
 };
 
+// ── NEWSLETTER ───────────────────────────────────
+// Bare subscribe ask (no gated download) — used in back matter
+// where a book just wants to invite a newsletter signup rather
+// than push another magnet. Points at the Substack subscribe
+// page, which is the documented front door for the MailerLite
+// list on account 2489284 (Substack signups seed it).
+books["newsletter"] = {
+  title: "Join Malory's newsletter",
+  url: "https://maloryauthor.substack.com/subscribe",
+};
+
 // ── READ-NEXT CHAIN (for Kindle back matter) ─────
 // links.maloryauthor.com/next-<slug> = "you finished <slug>,
 // here's the next thing to read". Series ends and cross-sells
