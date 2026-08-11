@@ -100,11 +100,17 @@ const books = {
     audible: "https://www.audible.com/pd/Punish-the-System-Book-2-Audiobook/B0H4HK7GC6",
   },
 
-  // ── BOY'S OWN ADVENTURES ─────────────────────
+  // ── CHAOS & CHILLS (was Boy's Own Adventures) ─
+  // Felix Jones Adventures
   "mr-glimm": {
     title: "The Weird Map in Mr Glimm's Skull",
     asin: "B0G7MMN47C",
   },
+  "blackglass": {
+    title: "The Clockwork Terror of Blackglass Island",
+    asin: "B0H853VNRW",
+  },
+  // Standalone
   "terror-from-the-deep": {
     title: "Terror from the Deep",
     asin: "1969819081",
@@ -236,11 +242,14 @@ books["next-chaos-protocols"] = books["swashbuckler"];
 books["next-swashbuckler"]   = books["crude"];
 books["next-punish-system"]  = books["punish-system-2"];
 books["next-punish-system-2"] = books["crude"];
-books["next-mr-glimm"]       = books["terror-from-the-deep"];
+books["next-mr-glimm"]       = books["blackglass"];
+books["next-blackglass"]     = books["terror-from-the-deep"];
 books["next-terror-from-the-deep"] = books["crude"];
 
 books["punish-the-system"] = books["punish-system"];
 books["welcome-to-the-dark-ages"] = books["dark-ages"];
 books["murder-in-the-temple"] = books["murder-temple"];
+books["clockwork-terror"] = books["blackglass"];
+books["blackglass-island"] = books["blackglass"];
 
 module.exports = books;
