@@ -204,6 +204,10 @@ const books = {
     title: "SNAFU: Level Up",
     asin: "B0GQV1MNFB",
   },
+  "bizarro": {
+    title: "Bizarro Circus of Madness",
+    asin: "B0FY1TF3RC",
+  },
 };
 
 // ── ALIASES ──────────────────────────────────────
