@@ -217,7 +217,7 @@ const books = {
 // ── READER MAGNET ────────────────────────────────
 books["crude"] = {
   title: "Crude (free novella via BookFunnel)",
-  url: "https://dl.bookfunnel.com/8pmwps4xxw",
+  url: "https://books.maloryauthor.com/8pmwps4xxw",
 };
 
 // ── NEWSLETTER ───────────────────────────────────
