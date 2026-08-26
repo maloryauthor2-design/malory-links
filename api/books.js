@@ -127,7 +127,7 @@ const books = {
   },
   "alien-family": {
     title: "Alien Family Traditions",
-    asin: "B0CWVG29RK",
+    asin: "B0FLFZQPMB",
   },
   "moggies": {
     title: "Moggies of Mars",
@@ -135,11 +135,11 @@ const books = {
   },
   "mercs": {
     title: "Mercs and Mayhem",
-    asin: "B0FYDFSJQN",
+    asin: "B0FY9GP7DD",
   },
   "bourbon": {
     title: "Bourbon and Lead",
-    asin: "B0G248LQP4",
+    asin: "B0G1YMZBGJ",
   },
   "muscle": {
     title: "High Class Muscle",
@@ -159,7 +159,7 @@ const books = {
   },
   "pogue-too": {
     title: "Pogue Too",
-    asin: "B0GN1F1ZCS",
+    asin: "B0D6772W4X",
   },
   "mad-science-2": {
     title: "Mad Science 2",
@@ -180,6 +180,29 @@ const books = {
   "pet-monsters": {
     title: "Pet Monsters",
     asin: "B0H784WGP1",
+  },
+  "wyrd-warfare": {
+    title: "Forgotten Fronts: Wyrd Warfare",
+    asin: "B0H9594NNH",
+  },
+
+  // ── OTHER PUBLISHERS ─────────────────────────
+  // Anthologies from outside the Raconteur Press line.
+  "masque-maelstrom": {
+    title: "Masque & Maelstrom Volume 2",
+    asin: "B0GMCMK25H",
+  },
+  "p-con": {
+    title: "P-Con: The Vortex of Chaos",
+    asin: "B0HCGJF6WB",
+  },
+  "wyrd-wyvern-west": {
+    title: "Wyrd Wyvern West",
+    asin: "B0HGMC574T",
+  },
+  "snafu-level-up": {
+    title: "SNAFU: Level Up",
+    asin: "B0GQV1MNFB",
   },
 };
 
@@ -259,5 +282,9 @@ books["welcome-to-the-dark-ages"] = books["dark-ages"];
 books["murder-in-the-temple"] = books["murder-temple"];
 books["blackglass"] = books["clockwork-terror"];
 books["blackglass-island"] = books["clockwork-terror"];
+books["forgotten-fronts"] = books["wyrd-warfare"];
+books["masque"] = books["masque-maelstrom"];
+books["snafu"] = books["snafu-level-up"];
+books["wyvern-west"] = books["wyrd-wyvern-west"];
 
 module.exports = books;
