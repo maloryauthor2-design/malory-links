@@ -185,6 +185,18 @@ const books = {
     title: "Forgotten Fronts: Wyrd Warfare",
     asin: "B0H9594NNH",
   },
+  "hold-my-beer": {
+    title: "Hold My Beer Heroes",
+    asin: "B0GXV7JBXY",
+  },
+  "arcane-intelligence": {
+    title: "Arcane Intelligence: Ten Stories of Spycraft and Sorcery",
+    asin: "B0HL979WMB",
+  },
+  "giant-killer-kaiju": {
+    title: "Giant Killer Kaiju: Ten Tales of Monsters and the People Who Face Them",
+    asin: "B0HNTXHBZJ",
+  },
 
   // ── OTHER PUBLISHERS ─────────────────────────
   // Anthologies from outside the Raconteur Press line.
@@ -290,5 +302,7 @@ books["forgotten-fronts"] = books["wyrd-warfare"];
 books["masque"] = books["masque-maelstrom"];
 books["snafu"] = books["snafu-level-up"];
 books["wyvern-west"] = books["wyrd-wyvern-west"];
+books["hold-my-beer-heroes"] = books["hold-my-beer"];
+books["kaiju"] = books["giant-killer-kaiju"];
 
 module.exports = books;
