@@ -88,6 +88,11 @@ const books = {
     asin: "B0FRWCKD96",
   },
 
+  "disavowed": {
+    title: "Arcane Galaxy: Disavowed",
+    asin: "B0HKK4Y175",
+  },
+
   // ── PUNISH THE SYSTEM ────────────────────────
   "punish-system": {
     title: "Punish the System",
@@ -286,7 +291,8 @@ books["next-psyker-4"]       = books["psyker-5"];
 books["next-psyker-5"]       = books["psyker-6"];
 books["next-psyker-6"]       = books["chaos-protocols"];
 books["next-chaos-protocols"] = books["swashbuckler"];
-books["next-swashbuckler"]   = books["crude"];
+books["next-swashbuckler"]   = books["disavowed"];
+books["next-disavowed"]      = books["crude"];
 books["next-punish-system"]  = books["punish-system-2"];
 books["next-punish-system-2"] = books["crude"];
 books["next-mr-glimm"]       = books["clockwork-terror"];
